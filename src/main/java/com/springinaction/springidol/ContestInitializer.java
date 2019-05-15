@@ -11,5 +11,9 @@ public class ContestInitializer {
 
         Performer performer = (Performer) ctx.getBean("duke");
         performer.perform();
+
+        Performer poeticPerformer = (Performer) ctx.getBean("poeticDuke");
+        poeticPerformer.perform();
+
     }
 }
